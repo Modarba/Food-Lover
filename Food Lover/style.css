@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    background: url(./img/home_bg.jpeg) center center/cover no-repeat;
+}
+body{
+    font-family: sans-serif;
+}
+#navbar ul{
+    display: flex;
+    margin-right: 100px;;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar img{
+    width: 80px;
+    margin-left: 100px;
+}
+#navbar ul li a{
+    padding: 15px 20px;
+    color: #fff;
+    font-weight: 600;
+}
+#navbar ul li a:hover{
+    border-bottom: 2px solid #e4b95e;
+}
+header .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+header .content h1{
+    font-size: 40px;
+    color: #fff;
+}
+header .content p{
+    margin: 20px 0 40px;
+    color: #fff;
+}
+.primary-text{
+    color: #e4b95b;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+}
+.btn-primary{
+color: #fff;
+border: 1px solid #fff;
+}
+.btn-primary:hover{
+    background-color: #e4b95b;
+}
+header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;width: 100;
+    background: rgb(0,0,0,0.6);
+
+}
+header *{
+    z-index: 10;
+}
+.continer{
+    max-width: 1100px;
+    margin: auto;
+}
+#about{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+}
+#about .title,
+#offers .title,
+#menu .title
+{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+#about h2,
+#offers h2,
+#menu h2,
+#gellary h2
+{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#about h2,
+#menu h2
+{
+    color: #383848;
+}
+#about .title p
+#menu .title p
+{
+    font-size: 14px;
+    color: #9a9a9a;
+    font-weight: 600;
+}
+#about .about-content{
+    display: flex;
+    justify-content: space-between;
+}
+#about .about-content img{
+    width: 450px;
+}
+#about .about-content p{
+    color: #9a9a9a;
+    margin-right: 7rem;
+    font-weight: 500;
+    line-height: 1.6;
+
+}
+.btn-secondry{
+    color: #fff;
+    background: #383848;
+    margin-top: 2rem;
+}
+.btn-secondry:hover{
+   background-color: #e4b95b;
+}
+#offers{
+    height: 90vh;
+    display: flex;
+    position: relative;
+    background-color: red;
+    justify-content: center;
+    background: url('img/offer-background.jpg') center center/cover fixed;
+}
+#offers .title{
+    text-align: center;
+    margin: 4rem;
+
+}
+#offers{
+    color: #e4b95b;
+}
+#offers .title p{
+    color: #fff;
+    font-weight: 500;
+}
+#offers .offers-item{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+#offers .offers-item img{
+    width: 200px;
+}
+
+#offers .offers-item h3{
+    font-size: 25px;
+    margin: 15px 0;
+}
+#offers .offers-item p{
+    font-size: 14px;
+    padding: 0 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+#offers .offers-item span{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+#meun{
+    background: #f4f4f4;
+    padding: 5rem 0;
+}
+#menu .menu-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu .menu-items .menu-item img{
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+#menu .menu-items .menu-item {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 40px;
+}
+#menu .menu-items .menu-item h3{
+    color: #383848;
+    border-bottom: 1px dashed #c2bdbd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+#menu .menu-items .menu-item  span{
+    position: absolute;
+    top: 0;
+    right: 0;;
+}
+#menu .btn{
+    background: #e4b95b;
+    display: block;
+    margin: 20px auto 0;
+    color: #fff;
+    cursor: pointer;
+}
+#menu .btn:hover{
+    background: #383848;
+}
+#daytime{
+    background: url('img/daytime_bg.jpeg') center center/cover fixed no-repeat;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+#daytime .daytime-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40vh;
+}
+#daytime .daytime-items h3{
+    font-size: 32px;
+    margin: 20px 0 10px;
+}
+#daytime .daytime-items  p{
+    font-weight: 500;
+}
+#gellary{
+    background: url('img/offer-background.jpg') center center/cover no-repeat;
+    margin-top: 20px;
+    padding: 8rem 0 6rem;
+}
+#gellary h2{
+    color: #fff;
+    text-align: center;   
+}
+#gellary .img-gallery {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+#gellary .img-gallery img{
+    width: 280px;
+    height:200px;
+    border-radius: 15px;
+    margin: 20px;
+    opacity: 0.6;
+}
+#gellary .img-gallery img:hover{
+    opacity: 1;
+}
+#contact{
+    padding: 5rem 0;
+    background: #f4f4f4;
+}
+#contact .continer{
+    max-width: 900px;
+}
+#contact .contact-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contact .contact-content .contact-info{
+    width: 50%;
+}
+#contact .contact-content .contact-info div{
+    margin: 30px 0;
+    line-height: 1.7;
+}
+#contact .contact-content .contact-info h3{
+    color: #383848;
+    font-size: 28px;
+    margin-bottom: 10px;
+
+}
+#contact .contact-content .contact-info p{
+    color: #9a9a9a;
+}
+#contact .contact-content .contact-info i{
+    color: #e4b95b;
+    margin-right: 5px;
+}
+#contact .contact-content .contact-info  a i{
+    color: #fff;
+    background-color: #383848;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 50px;
+} 
+#contact .contact-content .contact-info  a i:hover{
+    color:#383848 ;
+    background: #e4b95b;
+}
+form{
+    width: 50%;
+}
+form input,
+textarea{
+display: block;
+width: 100%;
+padding: 20px 15px;
+margin: 20px 0;
+border: none;
+color:#e3e2dd
+}
+#contact .btn{
+    background: #e4b95b;
+    color: #fff;
+    cursor: pointer;
+}
+#contact .btn:hover{
+    color: #383848;
+}
